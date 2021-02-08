@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+html {
+  font-family: "Noto Serif", serif;
+  text-align: center;
+}
+
+main {
+  background-image: url("https://richmonddc.com/files/2020/06/webb.png");
+  background-repeat: repeat-xy;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 10px;
+}
+h1 {
+  margin: auto;
+  background-color: #eee;
+  max-width: 50%;
+  min-width: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+#tribute-info {
+  text-align: justify;
+  background-color: white;
+  max-width: 50%;
+  min-width: 100px;
+  margin: auto;
+  padding: 2em;
+  line-height: 2em;
+}
